@@ -1,5 +1,8 @@
 class Storage {
   #items;
+  constructor(param) {
+    this.#items = param;
+  }
 
   getItems() {
     return this.#items;
